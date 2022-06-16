@@ -7,24 +7,17 @@ const config = {
             input: 'src/index.ts',
             output: 'dist/esm/ginsenghino.js',
             format: 'esm',
-            minify: true,
             platform: 'browser',
-        },
-        {
-            input: 'src/index.ts',
-            output: 'dist/node/ginsenghino.js',
-            format: 'esm',
-            minify: true,
-            platform: 'node',
         },
         {
             input: 'src/index.ts',
             output: 'dist/cjs/ginsenghino.cjs',
             format: 'cjs',
-            minify: true,
             platform: 'node',
         },
     ],
+    bundle: true,
+    minify: true,
 };
 
 export default config;

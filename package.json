@@ -6,13 +6,9 @@
   "main": "dist/cjs/ginsenghino.js",
   "module": "dist/esm/ginsenghino.js",
   "types": "types/index.d.ts",
-  "browser": {
-    "jsdom": false
-  },
   "exports": {
     ".": {
       "require": "./dist/cjs/ginsenghino.cjs",
-      "node": "./dist/node/ginsenghino.js",
       "default": "./dist/esm/ginsenghino.js"
     }
   },
