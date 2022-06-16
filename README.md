@@ -1,5 +1,7 @@
 # @chialab/ginsenghino
 
+[![NPM](https://img.shields.io/npm/v/@chialab/ginsenghino.svg)](https://www.npmjs.com/package/@chialab/ginsenghino)
+
 Chai-based assertion library and testing utilities for JavaScript modules and apps.
 
 It includes:
