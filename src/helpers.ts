@@ -8,3 +8,20 @@ export function wait(time: number = 1000) {
         setTimeout(() => resolve(), time);
     });
 }
+
+/**
+ * Wait the target fires an event.
+ * @param target The event target.
+ * @param eventName The event name.
+ * @returns A promise that resolves when target fires requested event.
+ */
+export function waitEvent(target: EventTarget, eventName: string) {
+    return new Promise<Event>((resolve) => {
+        const listener = (event: Event) => {
+            resolve(event);
+            target.removeEventListener(eventName, listener);
+        };
+
+        target.addEventListener(eventName, listener);
+    });
+}

@@ -1,4 +1,4 @@
-import chai, { expect, assert, should, spy, wait } from '@chialab/ginsenghino';
+import chai, { expect, assert, should, spy, wait, waitEvent } from '@chialab/ginsenghino';
 
 describe('ginsenghino', () => {
     it('should export "chai" framework', () => {
@@ -25,6 +25,10 @@ describe('ginsenghino', () => {
         expect(typeof wait).to.be.equal('function');
     });
 
+    it('should export "waitEvent" method', () => {
+        expect(typeof waitEvent).to.be.equal('function');
+    });
+
     it('should support spied function assetions', () => {
         const fn = spy();
         fn();
@@ -43,5 +47,13 @@ describe('ginsenghino', () => {
         await wait(1000);
 
         expect(Date.now() - time).to.be.gte(1000);
+    });
+
+    it('should wait a target fires an event', async () => {
+        const target = new EventTarget();
+        const promise = waitEvent(target, 'event');
+        target.dispatchEvent(new Event('event'));
+
+        expect(await promise).to.not.be.null;
     });
 });
