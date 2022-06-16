@@ -965,7 +965,7 @@
   dependencies:
     "@changesets/types" "^5.0.0"
 
-"@changesets/cli@^2.22.0":
+"@changesets/cli@^2.23.0":
   version "2.23.0"
   resolved "https://registry.npmjs.org/@changesets/cli/-/cli-2.23.0.tgz#e325b2d1b0484188671f684773b8cd5d42d068f1"
   integrity sha512-Gi3tMi0Vr6eNd8GX6q73tbOm9XOzGfuLEm4PYVeWG2neg5DlRGNOjYwrFULJ/An3N9MHtHn4r5h1Qvnju9Ijug==

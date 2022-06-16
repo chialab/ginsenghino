@@ -41,7 +41,7 @@
     "prepack": "yarn build"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.22.0",
+    "@changesets/cli": "^2.23.0",
     "@chialab/eslint-config": "^3.0.0",
     "@chialab/rna": "^0.16.0",
     "@chialab/rna-browser-test-runner": "^0.16.0",
