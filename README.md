@@ -22,8 +22,8 @@ import { expect, spy } from 'https://unpkg.com/@chialab/ginsenghino?module';
 Install via NPM:
 
 ```sh
-$ npm i @chialab/ginsenghino
-$ yarn add @chialab/ginsenghino
+$ npm i -D @chialab/ginsenghino
+$ yarn add -D @chialab/ginsenghino
 ```
 
 ```ts
