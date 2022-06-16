@@ -1,5 +1,5 @@
 <p align="center">
-    <strong>Ginsenghino</strong> • 
+    <strong>Ginsenghino</strong> • Chai-based assertion library and testing utilities for JavaScript modules and apps.
 </p>
 
 <p align="center">
