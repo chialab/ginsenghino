@@ -1,12 +1,13 @@
-<p align="center">
-    <strong>Ginsenghino</strong> • Chai-based assertion library and testing utilities for JavaScript modules and apps.
-</p>
+# @chialab/ginsenghino
 
-<p align="center">
-    <a href="https://www.npmjs.com/package/@chialab/ginsenghino"><img alt="NPM" src="https://img.shields.io/npm/v/@chialab/ginsenghino.svg"></a>
-</p>
+Chai-based assertion library and testing utilities for JavaScript modules and apps.
 
----
+It includes:
+* [Chai assertion library](https://www.chaijs.com/)
+* [Chai spies](https://www.chaijs.com/plugins/chai-spies/)
+* [Chai DOM](https://www.chaijs.com/plugins/chai-dom/)
+* [Chai assertions for Promises](https://www.chaijs.com/plugins/chai-as-promised/)
+* [Chai a11y](https://open-wc.org/docs/testing/chai-a11y-axe/)
 
 ## Get the library
 
