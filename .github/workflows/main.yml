@@ -124,7 +124,6 @@ jobs:
     needs:
       - test-browser
       - test-node
-      - test-saucelabs
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
