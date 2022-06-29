@@ -1,3 +1,8 @@
+// modules
+import './chai';
+import './chai-spies';
+import './chai-as-promised';
+// libraries
 import chai from 'chai/chai.js';
 import spies from 'chai-spies/lib/spy.js';
 import chaiDom from 'chai-dom';
