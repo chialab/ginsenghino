@@ -21,6 +21,33 @@ describe('ginsenghino', () => {
         expect(typeof spy).to.be.equal('function');
     });
 
+    it('should export strings methods', () => {
+        expect(typeof assert.startsWith).to.be.equal('function');
+        expect(typeof assert.endsWith).to.be.equal('function');
+        expect(typeof assert.equalIgnoreCase).to.be.equal('function');
+        expect(typeof assert.equalIgnoreSpaces).to.be.equal('function');
+        expect(typeof assert.containIgnoreSpaces).to.be.equal('function');
+        expect(typeof assert.containIgnoreCase).to.be.equal('function');
+        expect(typeof assert.singleLine).to.be.equal('function');
+        expect(typeof assert.reverseOf).to.be.equal('function');
+        expect(typeof assert.palindrome).to.be.equal('function');
+        expect(typeof assert.entriesCount).to.be.equal('function');
+        expect(typeof assert.indexOf).to.be.equal('function');
+    });
+
+    it('should export promise methods', () => {
+        expect(typeof assert.isFulfilled).to.be.equal('function');
+        expect(typeof assert.isRejected).to.be.equal('function');
+        expect(typeof assert.becomes).to.be.equal('function');
+        expect(typeof assert.doesNotBecome).to.be.equal('function');
+        expect(typeof assert.eventually).to.be.equal('object');
+    });
+
+    it('should export a11y methods', () => {
+        expect(typeof assert.isAccessible).to.be.equal('function');
+        expect(typeof assert.isNotAccessible).to.be.equal('function');
+    });
+
     it('should export "wait" method', () => {
         expect(typeof wait).to.be.equal('function');
     });
