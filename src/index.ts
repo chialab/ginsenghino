@@ -6,11 +6,13 @@ import './chai-as-promised';
 import chai from 'chai/chai.js';
 import spies from 'chai-spies/lib/spy.js';
 import chaiDom from 'chai-dom';
+import chaiString from 'chai-string';
 import chaiAsPromised from 'chai-as-promised/lib/chai-as-promised.js';
 import { chaiA11yAxe } from 'chai-a11y-axe';
 
 chai.use(spies);
 chai.use(chaiDom);
+chai.use(chaiString);
 chai.use(chaiAsPromised);
 chai.use(chaiA11yAxe);
 

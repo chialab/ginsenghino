@@ -8,6 +8,7 @@ It includes:
 * [Chai assertion library](https://www.chaijs.com/)
 * [Chai spies](https://www.chaijs.com/plugins/chai-spies/)
 * [Chai DOM](https://www.chaijs.com/plugins/chai-dom/)
+* [Chai string](https://www.chaijs.com/plugins/chai-string/)
 * [Chai assertions for Promises](https://www.chaijs.com/plugins/chai-as-promised/)
 * [Chai a11y](https://open-wc.org/docs/testing/chai-a11y-axe/)
 
